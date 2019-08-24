@@ -1,100 +1,147 @@
-/* ##########################
+/* ##############################################################################
     Formatações Gerais */
 
 * {
+
     padding: 0;
     margin: 0;
+
 }
 
 body {
+
     font: 14pt Bookman, 
     URW Bookman L, serif;
+
 }
 
-.clear {
-    clear: both;
+a {
+    text-decoration: none;
 }
 
-/* ##########################
+.clear { clear: both; }
+
+/* ##############################################################################
     Formatações HEADER */
 
-    header #barra-principal {
-        border: 1px solid red;
-        line-height: 7em;
-    }
+header #barra-principal {
 
-    header #slides-show {
-        border: 1px solid #b17c0b;
-        line-height: 425px;
-    }
+    background-color: #1F1E2C;
 
-/* ##########################
+}
+
+header #barra-principal h1 {
+
+    color: white;
+    font-size: 1.6em;
+    line-height: 4em;
+    text-indent: 2em;
+
+}
+
+header #slides-show {
+
+    margin-top: 0.5em;
+    border: 1px solid #b17c0b;
+    line-height: 425px;
+    
+}
+
+/* ##############################################################################
     Formatações Conteudo*/
 
-    #caixas-de-conteudo {
-        width: 80%;
-        margin: 0 auto;
-    }
+#caixas-de-conteudo {
+    width: 87%;
+    margin: 0 auto;
+}
 
-    .main-box {
-        padding: 3px;
-        margin-top: 5%;
-        background-color: black;
-    }
+.main-box {
+    padding: 7px 4px 7px 7px;
+    margin: 1.4em 0;
+    background-color: #1F1E2C;
+}
 
-    .main-box>h2 {
-        line-height: 2.4em;
-        text-indent: 1.4em;
-        color: white;
-    }
+.main-box > h2 {
+    line-height: 2em;
+    text-indent: 3em;
+    color: white;
+}
 
-    .mini-box {
-        /*border: 1px solid black;*/
-        width: 29.6%; /* 33.33 %*/
-        float: left;
-        text-align: center;
-        height: 230px;
-        background-color: brown;
-        padding: 40px 20px;
-    }
+.mini-box {
+    /*border: 1px solid black;*/
+    width: 29.8%; /* 33.33 %*/
+    float: left;
+    color: white;
+    text-align: center;
+    height: 230px;
+    padding: 20px;
+}
 
-    .mini-box .conteudo h2 {
-        color: white;
-        font-size: 1.6em;
-        line-height: 4em;
-    }
+.mini-box h2 {
+    font-size: 1.6em;
+    line-height: 4em;
+}
 
-    .mini-box .conteudo p {
-        font-size: 0.8em;
-        color: white;
+.mini-box p {
+    font-size: 0.8em;
         
+}
+
+/* ##############################################################################
+    Cores das caixas */
+
+    .caixa-azul-1 {
+        background-color: #0B789F;
     }
 
-    .main-box>a :hover {
-        background-color: rgb(189, 67, 67);
+    .main-box a :hover{
+        background-color: #c2c2c2;
+        color: #1F1E2C
     }
 
+    .caixa-azul-2 {
+        background-color: #2690B8;
+    }
+
+    .caixa-azul-3 {
+        background-color: #3FA9D1;
+    }
+
+    .caixa-azul-escuro-1 {
+         background-color: #133498;
+    }
+
+    .caixa-azul-escuro-2 {
+        background-color: #2C4DB1;
+   }
+
+   .caixa-azul-escuro-3 {
+    background-color: #4566CA;
+}
+
+    
 
 
 
-/* ##########################
+
+/* ##############################################################################
     Formatações */
 
-/* ##########################
+/* ##############################################################################
     Formatações */
 
 
-/* ##########################
+/* ##############################################################################
     Formatações */
 
-/* ##########################
+/* ##############################################################################
     Formatações */
 
-/* ##########################
+/* ##############################################################################
     Formatações */
 
-/* ##########################
+/* ##############################################################################
     Formatações */
 
-/* ##########################
+/* ##############################################################################
     Formatações */
