@@ -1,0 +1,100 @@
+/* ##########################
+    Formatações Gerais */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font: 14pt Bookman, 
+    URW Bookman L, serif;
+}
+
+.clear {
+    clear: both;
+}
+
+/* ##########################
+    Formatações HEADER */
+
+    header #barra-principal {
+        border: 1px solid red;
+        line-height: 7em;
+    }
+
+    header #slides-show {
+        border: 1px solid #b17c0b;
+        line-height: 425px;
+    }
+
+/* ##########################
+    Formatações Conteudo*/
+
+    #caixas-de-conteudo {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .main-box {
+        padding: 3px;
+        margin-top: 5%;
+        background-color: black;
+    }
+
+    .main-box>h2 {
+        line-height: 2.4em;
+        text-indent: 1.4em;
+        color: white;
+    }
+
+    .mini-box {
+        /*border: 1px solid black;*/
+        width: 29.6%; /* 33.33 %*/
+        float: left;
+        text-align: center;
+        height: 230px;
+        background-color: brown;
+        padding: 40px 20px;
+    }
+
+    .mini-box .conteudo h2 {
+        color: white;
+        font-size: 1.6em;
+        line-height: 4em;
+    }
+
+    .mini-box .conteudo p {
+        font-size: 0.8em;
+        color: white;
+        
+    }
+
+    .main-box>a :hover {
+        background-color: rgb(189, 67, 67);
+    }
+
+
+
+
+/* ##########################
+    Formatações */
+
+/* ##########################
+    Formatações */
+
+
+/* ##########################
+    Formatações */
+
+/* ##########################
+    Formatações */
+
+/* ##########################
+    Formatações */
+
+/* ##########################
+    Formatações */
+
+/* ##########################
+    Formatações */
