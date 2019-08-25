@@ -132,7 +132,27 @@ header #slides-show {
 
 
 /* ##############################################################################
-    Formatações */
+    Formatações Rodapé */
+
+footer {
+    background-color: #2E2D3B;
+    color: white;
+    height: 300px;
+}
+
+footer h2 {
+    font-size: 1em;
+    text-indent: 1em;
+    line-height: 2em;
+}
+
+footer #main-footer {
+    background-color: #1F1E2C;
+    height: 258px;
+}
+
+
+
 
 /* ##############################################################################
     Formatações */
