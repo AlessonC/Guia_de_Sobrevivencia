@@ -13,6 +13,8 @@ body {
     font: 14pt Bookman, 
     URW Bookman L, serif;
 
+    background-color: #aef3b191;
+
 }
 
 a {
@@ -79,32 +81,83 @@ header #slides-show {
 
 .mini-box h2 {
     font-size: 1.6em;
-    line-height: 4em;
+    line-height: 1.6em;
+    margin: 0.4em 0;
 }
 
 .mini-box p {
+    line-height: 1.4em;
     font-size: 0.8em;
+    margin: 4em 0;
         
 }
 
 /* ##############################################################################
     Cores das caixas */
 
+    .main-box a :hover{
+        background-color: #c2c2c2;
+        color: #1F1E2C
+    }
+
     .caixa-azul-1 {
         background-color: #0B789F;
     }
 
-    .main-box a :hover{
-        background-color: #c2c2c2;
-        color: #1F1E2C
+    .caixa-red-1 {
+        background-color: #A10A2E;
+    }
+
+    .caixa-purple-1 {
+        background-color: #880BA1;
+    }
+
+    .caixa-green-1 {
+        background-color: #08A355;
+    }
+
+    .caixa-green2-1 {
+        background-color: #518F1C;
     }
 
     .caixa-azul-2 {
         background-color: #2690B8;
     }
 
+    .caixa-red-2 {
+        background-color: #BF1E44;
+    }
+
+    .caixa-purple-2 {
+        background-color: #A41FBE;
+    }
+
+    .caixa-green-2 {
+        background-color: #19C46E;
+    }
+
+    .caixa-green2-2 {
+        background-color: #6AAE2F;
+    }
+
     .caixa-azul-3 {
         background-color: #3FA9D1;
+    }
+
+    .caixa-red-3 {
+        background-color: #DA355C;
+    }
+
+    .caixa-purple-3 {
+        background-color: #BD37D9;
+    }
+
+    .caixa-green-3 {
+        background-color: #30DF87;
+    } 
+
+    .caixa-green2-3 {
+        background-color: #82C947;
     }
 
     .caixa-azul-escuro-1 {
